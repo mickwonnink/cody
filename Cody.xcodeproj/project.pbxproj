@@ -78,11 +78,11 @@
 		005862EA1BD1617400C3C1BD /* Cody */ = {
 			isa = PBXGroup;
 			children = (
-				0045CE551BD26DFA0038D171 /* UIImage+Gif.swift */,
 				0045CE541BD26DEB0038D171 /* Library */,
 				0045CE511BD26B5B0038D171 /* Images */,
 				005862EB1BD1617400C3C1BD /* AppDelegate.swift */,
 				005862ED1BD1617400C3C1BD /* ViewController.swift */,
+				0045CE551BD26DFA0038D171 /* UIImage+Gif.swift */,
 				005862EF1BD1617400C3C1BD /* Main.storyboard */,
 				005862F21BD1617400C3C1BD /* Assets.xcassets */,
 				005862F41BD1617400C3C1BD /* LaunchScreen.storyboard */,
