@@ -10,7 +10,6 @@
 		0045CE531BD26C870038D171 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0045CE521BD26C870038D171 /* giphy.gif */; settings = {ASSET_TAGS = (); }; };
 		0045CE561BD26DFA0038D171 /* UIImageGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045CE551BD26DFA0038D171 /* UIImageGif.swift */; settings = {ASSET_TAGS = (); }; };
 		0045CE581BD26FC80038D171 /* cody-talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0045CE571BD26FC80038D171 /* cody-talking.gif */; settings = {ASSET_TAGS = (); }; };
-		004BD1E31BDA3EA60009D91F /* UIImageGif.swift in Frameworks */ = {isa = PBXBuildFile; fileRef = 0045CE551BD26DFA0038D171 /* UIImageGif.swift */; };
 		005862EC1BD1617400C3C1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005862EB1BD1617400C3C1BD /* AppDelegate.swift */; };
 		005862EE1BD1617400C3C1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005862ED1BD1617400C3C1BD /* ViewController.swift */; };
 		005862F11BD1617400C3C1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005862EF1BD1617400C3C1BD /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004BD1E31BDA3EA60009D91F /* UIImageGif.swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
