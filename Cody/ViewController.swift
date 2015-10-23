@@ -56,7 +56,7 @@ class ViewController: UIViewController {
             for item in jsonData
             {
                 //recognize commands with the key 'commandname'
-                let newCommand = item.objectForKey("commandname") as! String
+                let newCommand = item.objectForKey("commando") as! String
                 commands.append(newCommand); //add them to commands list
             }
         }
@@ -120,8 +120,9 @@ class ViewController: UIViewController {
         if (secondAction == false){
             if (tbCode.text?.isEmpty == false){
             //TODO Check code.
-            var urlstring: String = "https://gist.githubusercontent.com/anonymous/32d25fac0bc29e5d3f16/raw/ff26ae3a7e1985be0a73fbf0d51bfc43a198d8dc/"
+            var urlstring: String = "http://i329453.iris.fhict.nl/sm32/json/"
             urlstring += tbCode.text!
+            urlstring += ".json"
             defurl = urlstring
                 self.loadJsonData(defurl)
                 //checks the validity of the url after finishing parsing.
