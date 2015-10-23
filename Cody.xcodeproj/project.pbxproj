@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0045CE531BD26C870038D171 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0045CE521BD26C870038D171 /* giphy.gif */; settings = {ASSET_TAGS = (); }; };
+		0045CE561BD26DFA0038D171 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0045CE551BD26DFA0038D171 /* UIImage+Gif.swift */; settings = {ASSET_TAGS = (); }; };
+		0045CE581BD26FC80038D171 /* cody-talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0045CE571BD26FC80038D171 /* cody-talking.gif */; settings = {ASSET_TAGS = (); }; };
 		005862EC1BD1617400C3C1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005862EB1BD1617400C3C1BD /* AppDelegate.swift */; };
 		005862EE1BD1617400C3C1BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005862ED1BD1617400C3C1BD /* ViewController.swift */; };
 		005862F11BD1617400C3C1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005862EF1BD1617400C3C1BD /* Main.storyboard */; };
 		005862F31BD1617400C3C1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005862F21BD1617400C3C1BD /* Assets.xcassets */; };
 		005862F61BD1617400C3C1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005862F41BD1617400C3C1BD /* LaunchScreen.storyboard */; };
+		005862FE1BD1619200C3C1BD /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005862FD1BD1619200C3C1BD /* Command.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0045CE521BD26C870038D171 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../Downloads/giphy.gif; sourceTree = "<group>"; };
+		0045CE551BD26DFA0038D171 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "../../../Downloads/SwiftGif-master/SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		0045CE571BD26FC80038D171 /* cody-talking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cody-talking.gif"; path = "../../../Downloads/cody-talking.gif"; sourceTree = "<group>"; };
 		005862E81BD1617400C3C1BD /* Cody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005862EB1BD1617400C3C1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005862ED1BD1617400C3C1BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		005862F21BD1617400C3C1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005862F51BD1617400C3C1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005862F71BD1617400C3C1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005862FD1BD1619200C3C1BD /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0045CE511BD26B5B0038D171 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0045CE571BD26FC80038D171 /* cody-talking.gif */,
+				0045CE521BD26C870038D171 /* giphy.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0045CE541BD26DEB0038D171 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		005862DF1BD1617400C3C1BD = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +78,16 @@
 		005862EA1BD1617400C3C1BD /* Cody */ = {
 			isa = PBXGroup;
 			children = (
+				0045CE551BD26DFA0038D171 /* UIImage+Gif.swift */,
+				0045CE541BD26DEB0038D171 /* Library */,
+				0045CE511BD26B5B0038D171 /* Images */,
 				005862EB1BD1617400C3C1BD /* AppDelegate.swift */,
 				005862ED1BD1617400C3C1BD /* ViewController.swift */,
 				005862EF1BD1617400C3C1BD /* Main.storyboard */,
 				005862F21BD1617400C3C1BD /* Assets.xcassets */,
 				005862F41BD1617400C3C1BD /* LaunchScreen.storyboard */,
 				005862F71BD1617400C3C1BD /* Info.plist */,
+				005862FD1BD1619200C3C1BD /* Command.swift */,
 			);
 			path = Cody;
 			sourceTree = "<group>";
@@ -123,6 +151,8 @@
 			files = (
 				005862F61BD1617400C3C1BD /* LaunchScreen.storyboard in Resources */,
 				005862F31BD1617400C3C1BD /* Assets.xcassets in Resources */,
+				0045CE531BD26C870038D171 /* giphy.gif in Resources */,
+				0045CE581BD26FC80038D171 /* cody-talking.gif in Resources */,
 				005862F11BD1617400C3C1BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +166,8 @@
 			files = (
 				005862EE1BD1617400C3C1BD /* ViewController.swift in Sources */,
 				005862EC1BD1617400C3C1BD /* AppDelegate.swift in Sources */,
+				0045CE561BD26DFA0038D171 /* UIImage+Gif.swift in Sources */,
+				005862FE1BD1619200C3C1BD /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +315,7 @@
 				005862FC1BD1617400C3C1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
